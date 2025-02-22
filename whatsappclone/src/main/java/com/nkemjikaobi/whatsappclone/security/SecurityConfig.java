@@ -77,6 +77,5 @@ public class SecurityConfig {
         ));
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
-
     }
 }
