@@ -10,7 +10,7 @@ services:
     volumes:
       - postgres:/data/postgres
     ports:
-      - 5432:5432
+      - 6543:5432
     networks:
       - whatsapp-clone
     restart: unless-stopped
